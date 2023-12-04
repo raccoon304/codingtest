@@ -11,7 +11,7 @@ for i in range(L):
     num = (ord(li[i])-96) * (31**i)
     ans += num 
 
-print(ans)
+print(ans % 1234567891)
 
     
 
